@@ -5,10 +5,10 @@ Vagrant::Config.run do |config|
   # All Vagrant configuration is done here. 
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "debian-squeeze-64"
+  config.vm.box = "DebianSqueeze64"
 
   # The url from where the 'config.vm.box' box will be fetched if it
-  config.vm.box_url = "http://puppetlabs.s3.amazonaws.com/pub/squeeze64.box"
+  config.vm.box_url = "https://dl.dropbox.com/u/1543052/Boxes/DebianSqueeze64.box"
 
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM, whereas host only networking does not.
